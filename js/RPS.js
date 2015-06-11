@@ -52,18 +52,18 @@ function check(){
 	var total = won + lost + draw;
 	var percentage = won/total;
 	percentage = Math.round(percentage*100)/100;
-	$("#score").append('<br>Your Win percentage is: ' + percentage + '%');
+	$("#score").append('<br>Your win percentage is: ' + percentage + '%');
 }
 
 function loadImage(who, what){
 	if(what == 0){
-		$("#"+who).prepend('<img src="images/rock' +  (Math.floor((Math.random() * 3)))+ '.gif" width = "80%">');
+		$("#"+who).prepend('<img src="images/rock' +  (Math.floor((Math.random() * 3)))+ '.gif" width = "80%" class = "animated flipInX">');
 	}
 	else if(what == 1){
-		$("#"+who).prepend('<img src="images/paper' +  (Math.floor((Math.random() * 2)))+ '.gif" width = "80%">');
+		$("#"+who).prepend('<img src="images/paper' +  (Math.floor((Math.random() * 2)))+ '.gif" width = "80%" class = "animated flipInX">');
 	}
 	else if(what == 2){
-		$("#"+who).prepend('<img src="images/scissors' +  (Math.floor((Math.random() * 2)))+ '.gif" width = "80%">');
+		$("#"+who).prepend('<img src="images/scissors' +  (Math.floor((Math.random() * 2)))+ '.gif" width = "80%" class = "animated flipInX">');
 	}
 }
 
