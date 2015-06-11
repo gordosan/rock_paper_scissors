@@ -26,25 +26,25 @@ function play(choice){
 
 function check(){
 	if(user == cpu){
-		$("#display").prepend('DRAW');
+		$("#display").prepend('<h1>DRAW</h1>');
 		draw = draw +1;
 	}else if(user == "Rock" && cpu == "Paper"){
-		$("#display").prepend('You Lose');
+		$("#display").prepend('<h1>You Lose</h1>');
 		lost = lost + 1;
 	}else if(user == "Rock" && cpu == "Scissors"){
-		$("#display").prepend('You Win');
+		$("#display").prepend('<h1 class = "animated tada">You Win</h1>');
 		won = won + 1;
 	}else if(user == "Paper" && cpu == "Rock"){
-		$("#display").prepend('You Win');
+		$("#display").prepend('<h1 class = "animated tada">You Win</h1>');
 		won = won + 1;
 	}else if(user == "Paper" && cpu == "Scissors"){
-		$("#display").prepend('You Lose');
+		$("#display").prepend('<h1>You Lose</h1>');
 		lost = lost + 1;
 	}else if(user == "Scissors" && cpu == "Paper"){
-		$("#display").prepend('You Win');
+		$("#display").prepend('<h1 class = "animated tada">You Win</h1>');
 		won = won + 1;
 	}else if(user == "Scissors" && cpu == "Rock"){
-		$("#display").prepend('You Lose');
+		$("#display").prepend('<h1>You Lose</h1>');
 		lost = lost + 1;
 	}
 	$("#score").empty();
