@@ -51,7 +51,7 @@ function check(){
 	$("#score").prepend(' Wins: ' + won + ' Losses: ' + lost + ' Draws: ' + draw);
 	var total = won + lost + draw;
 	var percentage = won/total;
-	percentage = Math.round(percentage*100)/100;
+	percentage = Math.round(percentage*10000)/100;
 	$("#score").append('<br>Your win percentage is: ' + percentage + '%');
 }
 
