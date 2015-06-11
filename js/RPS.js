@@ -57,13 +57,13 @@ function check(){
 
 function loadImage(who, what){
 	if(what == 0){
-		$("#"+who).prepend('<img src="images/rock' +  (Math.floor((Math.random() * 3)))+ '.gif" width = "80%" class = "animated flipInX">');
+		$("#"+who).prepend('<h1>'+ who +' played:</h1><img src="images/rock' +  (Math.floor((Math.random() * 3)))+ '.gif" width = "80%" class = "animated flipInX">');
 	}
 	else if(what == 1){
-		$("#"+who).prepend('<img src="images/paper' +  (Math.floor((Math.random() * 2)))+ '.gif" width = "80%" class = "animated flipInX">');
+		$("#"+who).prepend('<h1>'+ who +' played:</h1><img src="images/paper' +  (Math.floor((Math.random() * 2)))+ '.gif" width = "80%" class = "animated flipInX">');
 	}
 	else if(what == 2){
-		$("#"+who).prepend('<img src="images/scissors' +  (Math.floor((Math.random() * 2)))+ '.gif" width = "80%" class = "animated flipInX">');
+		$("#"+who).prepend('<h1>'+ who +' played:</h1><img src="images/scissors' +  (Math.floor((Math.random() * 2)))+ '.gif" width = "80%" class = "animated flipInX">');
 	}
 }
 

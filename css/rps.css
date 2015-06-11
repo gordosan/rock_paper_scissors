@@ -1,10 +1,31 @@
 @charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Luckiest+Guy);
 
 body {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #eee;
   text-align: center;
+}
+
+.btn{
+	width: 30%;
+	border: solid thin black;
+	background-color: #C2D6D6;
+}
+
+.btn:hover{
+	background-color: #669999;
+}
+
+.btn:active{
+	background-color: #476B6B;
+}
+
+
+#main h1{
+	font-size: 100px;
+	font-family: 'Luckiest Guy', cursive;
 }
 
 .container{
@@ -18,6 +39,14 @@ body {
 
 #cpu{
 	width: 49%;
+}
+
+#user h1{
+	font-size: 30px;
+}
+
+#cpu h1{
+	font-size: 30px;
 }
 
 #choice{

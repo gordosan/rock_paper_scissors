@@ -28,7 +28,7 @@ You can read the source, or you can just get a copy ;) -- https://github.com/gor
   </head>
   <body>
 
-    <div class="container">
+    <div class="container" id = "main">
     	<h1> ROCK PAPER SCISSORS!</h1>
      	<div class = "container" id = "user">
      		
@@ -41,12 +41,12 @@ You can read the source, or you can just get a copy ;) -- https://github.com/gor
          <div id = "score"></div>
 
         <div id = "choice">
-	        <button onClick = "play('0');">Rock</button>
-	        <button onClick = "play('1');">Paper</button>
-	        <button onClick = "play('2');">Scissors</button>
+	        <button class = "btn" onClick = "play('0');">Rock</button>
+	        <button class = "btn" onClick = "play('1');">Paper</button>
+	        <button class = "btn" onClick = "play('2');">Scissors</button>
    		</div>
     </div> 
-    
+
     <script src="js/ie10-viewport-bug-workaround.js"></script>
     <script src="js/RPS.js"></script>
   </body>
