@@ -1,0 +1,31 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+  text-align: center;
+}
+
+.container{
+	display:inline-block;
+	padding: 20px;
+}
+
+#user{
+	width: 49%;
+}
+
+#cpu{
+	width: 49%;
+}
+
+#choice{
+	padding: 40px;
+}
+
+#display{
+	font-size: 50px;
+}
+
+#score{
+	font-size: 30px;
+}
